@@ -16,24 +16,35 @@
             </a>
         </div>
         <main>
-            <section class="form">
+            <form>
                 <div class="form-list">
-                    <p class="tit">이메일</p>
-                    <input type="text" name="id">
+                    <label>이메일</label>
+                    <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="codeit@email.com"
+                    required
+                    aria-required="true"
+                    />
                 </div>
                 <div class="form-list">
-                    <p class="tit">닉네임</p>
+                    <label>닉네임</label>
                     <input type="text" name="nickname">
                 </div>
                 <div class="form-list">
-                    <p class="tit">비밀번호</p>
+                    <label>비밀번호</label>
                     <div class="password">
-                        <input type="password" name="password">
+                        <input
+                        type="password"
+                        name="password"
+                        id="password"
+                        />
                         <button class="vs"><img src='./svg/visibility_off.svg'></button>
                     </div>
                 </div>
                 <div class="form-list">
-                    <p class="tit">비밀번호 확인</p>
+                    <label>비밀번호 확인</label>
                     <div class="password">
                         <input type="text" name="passwordConfirm">
                         <button class="vs"><img src='./svg/visibility_on.svg'></button>
@@ -47,11 +58,11 @@
                         <a href="https://www.kakaocorp.com/page/" target="_blank"><img src="svg/login_kakao.svg" alt="카카오 로그인 버튼 이미지"></a>
                     </div>
                 </div>
-            </section>
+            </form>
             
         </main>
-        <div class="box-footer">
+        <footer class="box-footer">
             <p>이미 회원이신가요?</p>
             <p><a href="login.html" target="_blank">로그인</a></p>
-        </div>
+        </footer>
     </div>

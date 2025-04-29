@@ -121,14 +121,14 @@ main .main-section:last-child {
     color: #374151;
 }
 
-footer {
+.main-footer {
     width: 100%;
     padding-top: 32px;
     background-color: #111827;
     height: 160px;
 }
 
-footer .content {
+.main-footer .content {
     width: 1120px;
     margin: 0 auto;
     display: flex;
@@ -137,19 +137,19 @@ footer .content {
     font-size: 16px;
 }
 
-footer .content .sign {
+.main-footer .content .sign {
     color: #9CA3AF;
 }
 
-footer .content .notice span a{
+.main-footer .content .notice span a{
     color: #fff;
 }
 
-footer .content .notice span:first-child {
+.main-footer .content .notice span:first-child {
     margin-right: 30px;
 }
 
-footer .content .sns {
+.main-footer .content .sns {
     width: 20px;
     margin-left: 12px;
     display: flex;
@@ -176,7 +176,7 @@ footer .content .sns {
     width: 396px;
 }
 
-section.form {
+main form {
     width: 100%;
     margin-bottom: 24px;
     display: flex;
@@ -184,20 +184,20 @@ section.form {
     gap: 24px;
 }
 
-section.form .form-list {
+main form .form-list {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-section.form .form-list .tit {
+main form .form-list label {
     font-size: 18px;
     font-weight: 700;
     line-height: 26px;
     color: #1f2937;
 }
 
-section.form .form-list input {
+main form .form-list input {
     width: 100%;
     padding-left: 24px;
     height: 56px;
@@ -210,25 +210,25 @@ section.form .form-list input {
     border: none;
 }
 
-section.form .form-list .password {
+main form .form-list .password {
     display: flex;
     position: relative;
     align-items: center;
 }
 
-section.form .form-list .vs {
+main form .form-list .vs {
     position: absolute;
     right: 24px;
     border: none;
     background: none;
 }
 
-section.form .btn-l {
+main form .btn-l {
     background-color: var(--blue-color);
     color: #fff;
 }
 
-section.form .sns-login {
+main form .sns-login {
     background-color: #E6F2FF;
     border-radius: 8px;
     padding: 16px 23px;
@@ -237,20 +237,20 @@ section.form .sns-login {
     align-items: center;
 }
 
-section.form .sns-login .txt {
+main form .sns-login .txt {
     font-size: 16px;
     font-weight: 500;
     line-height: 26px;
     color: #1F2937;
 }
 
-section.form .sns-login .sns-btn {
+main form .sns-login .sns-btn {
     display: flex;
     align-items: center;
     gap: 16px;
 }
 
-section.form .sns-login .sns-btn img {
+main form .sns-login .sns-btn img {
     width: 42px;
 }
 
